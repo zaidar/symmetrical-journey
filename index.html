@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
   <head>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -165,6 +166,23 @@
  $( "#snips" ).css('display', 'none');
 });
 
+=======
+  <body>
+
+  <h1>My First Heading</h1>
+  <p>My first paragraph.</p>
+  <a class="content">Label</a>
+  <form action="https://67u04u4tk5.execute-api.ap-southeast-1.amazonaws.com/default/number" method="GET">
+    <input type="text" name="number"/>
+    <button type="submit">Submit</button>
+  </form>
+
+
+  <button class="mybutton">Get data</button>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+ <script type="text/javascript">
+>>>>>>> 570de20f1bf9168a070e39e1642cfb18452fdf80
 
    const btn = document.querySelector('.mybutton');
    btn.addEventListener('click', getData);
@@ -172,7 +190,10 @@
        $.ajax({
        url : '/sicp',
        method : 'GET',
+<<<<<<< HEAD
        data : { sicp: $("input[name='sicp']").val() },
+=======
+>>>>>>> 570de20f1bf9168a070e39e1642cfb18452fdf80
        success : function(data){
          // content
           $(".content").html(data);
@@ -182,9 +203,15 @@
        error: function(err){
          console.log('Failed');
        }
+<<<<<<< HEAD
     });
    }
   </script>
 
+=======
+  });
+ }
+</script>
+>>>>>>> 570de20f1bf9168a070e39e1642cfb18452fdf80
   </body>
 </html>

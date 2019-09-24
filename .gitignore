@@ -99,6 +99,9 @@ public
 
 *.exe
 *.rkt
+<<<<<<< HEAD
 *.pem
 sicp
 Dashboard Template for Bootstrap.html
+=======
+>>>>>>> 570de20f1bf9168a070e39e1642cfb18452fdf80
